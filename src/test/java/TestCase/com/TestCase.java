@@ -20,12 +20,12 @@ public class TestCase extends BaseClass
 		tb.userEmail(Email);
 		tb.currentAddress(CurrentA);
 		tb.permanentAddress(PermantA);
-		tb.submit();
+		tb.submit();git 
 	}
 	@DataProvider(name="DataPro")
 	public String [][] searchData() throws Exception
 	{
-		String filename="C:\\Users\\Ankit Sharma\\Downloads\\Ass.xlsx";//
+		String filename="C:\\Users\\Ankit Sharma\\Downloads\\TestData.xlsx";//
 		int row=DataDriverTesting.getRowCount(filename,"Sheet1");
 		int col=DataDriverTesting.getCellCount(filename,"Sheet1");
 		String s1[][]=new String[row-1][col];//

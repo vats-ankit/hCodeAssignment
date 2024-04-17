@@ -1,0 +1,23 @@
+String stringName = "Ankit Sharma";
+String StringName2;
+StringName2 = "Ankit"
+
+String S = "team";
+String S2 = "seat";
+
+
+
+char[] charArray = new char[S.length()];
+for(int i=0; i<S.length(); i++){
+char[] c = S.charAt(i);
+charArray[i] = c;
+
+}
+
+char[] charArray2 = new char[S.length()];
+for(int j=0; j<S2.length(); j++){
+char[] c2 = S2.charAt(j);
+charArray2[i] = c2;
+
+}
+
