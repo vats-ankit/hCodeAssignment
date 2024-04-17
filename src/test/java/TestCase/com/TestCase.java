@@ -25,7 +25,7 @@ public class TestCase extends BaseClass
 	@DataProvider(name="DataPro")
 	public String [][] searchData() throws Exception
 	{
-		String filename="C:\\Users\\Ankit Sharma\\Downloads\\TestData.xlsx";//
+		String filename="TestData/TestData.xlsx";//
 		int row=DataDriverTesting.getRowCount(filename,"Sheet1");
 		int col=DataDriverTesting.getCellCount(filename,"Sheet1");
 		String s1[][]=new String[row-1][col];//
