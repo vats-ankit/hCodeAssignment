@@ -20,7 +20,7 @@ public class TestCase extends BaseClass
 		tb.userEmail(Email);
 		tb.currentAddress(CurrentA);
 		tb.permanentAddress(PermantA);
-		tb.submit();git 
+		tb.submit();git
 	}
 	@DataProvider(name="DataPro")
 	public String [][] searchData() throws Exception
