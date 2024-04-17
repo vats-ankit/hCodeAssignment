@@ -49,7 +49,7 @@ public class BaseClass
 	{
 		TakesScreenshot sc=(TakesScreenshot)driver;
 		File f1=sc.getScreenshotAs(OutputType.FILE);
-		File f2=new File("C:\\Users\\Ankit Sharma\\Desktop\\New folder\\TouchCode\\ScreenShot\\Screen1.png");
+		File f2=new File("ScreenShot/Screen1.png");
 		FileUtils.copyFile(f1, f2);
 	}
 
