@@ -20,7 +20,7 @@ public class TestCase extends BaseClass
 		tb.userEmail(Email);
 		tb.currentAddress(CurrentA);
 		tb.permanentAddress(PermantA);
-		tb.submit();git
+		tb.submit();
 	}
 	@DataProvider(name="DataPro")
 	public String [][] searchData() throws Exception
@@ -60,7 +60,7 @@ public class TestCase extends BaseClass
 	{
 		FileUploadClass uc=new FileUploadClass(driver);
 		uc.button();
-		uc.uploadfile("TestData/SampleText.txt");
+		uc.uploadfile("C:\\Users\\Ankit Sharma\\hCodeAssignment\\TestData\\SampleText.txt");
 	}
 	
 
