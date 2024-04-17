@@ -60,7 +60,7 @@ public class TestCase extends BaseClass
 	{
 		FileUploadClass uc=new FileUploadClass(driver);
 		uc.button();
-		uc.uploadfile("C:\\Users\\Ankit Sharma\\Documents\\SampleDocs\\SampleText.txt");
+		uc.uploadfile("TestData/SampleText.txt");
 	}
 	
 
