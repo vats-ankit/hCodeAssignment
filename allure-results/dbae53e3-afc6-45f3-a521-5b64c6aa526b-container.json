@@ -1,0 +1,1 @@
+{"uuid":"dbae53e3-afc6-45f3-a521-5b64c6aa526b","name":"TestCase.com.TestCase","children":["6f86bcb7-1272-4cec-9293-a5640de979a6"],"befores":[{"name":"browserLaunch","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1713326116612,"stop":1713326119503}],"afters":[],"start":1713326116566,"stop":1713326119682}

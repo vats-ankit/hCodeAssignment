@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-14T14:15:50 IST" name="Suite" finished-at="2024-04-14T14:16:02 IST" duration-ms="12150">
+    <groups>
+    </groups>
+    <test started-at="2024-04-14T14:15:50 IST" name="Test" finished-at="2024-04-14T14:16:02 IST" duration-ms="12150">
+      <class name="TestCase.com.TestCase">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestCase.com.TestCase@69adf72c]" started-at="2024-04-14T14:15:50 IST" name="browserLaunch" finished-at="2024-04-14T14:15:53 IST" duration-ms="3166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="testBox(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.com.TestCase@69adf72c]" started-at="2024-04-14T14:15:55 IST" name="testBox" data-provider="DataPro" finished-at="2024-04-14T14:16:01 IST" duration-ms="5674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nitesh Saini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niteshqatester4@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Noida sector-22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Meerut up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBox -->
+        <test-method signature="webTable()[pri:1, instance:TestCase.com.TestCase@69adf72c]" started-at="2024-04-14T14:16:01 IST" name="webTable" finished-at="2024-04-14T14:16:01 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTable -->
+        <test-method signature="dyanmicElement()[pri:2, instance:TestCase.com.TestCase@69adf72c]" started-at="2024-04-14T14:16:01 IST" name="dyanmicElement" finished-at="2024-04-14T14:16:01 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dyanmicElement -->
+        <test-method signature="fileUpload()[pri:3, instance:TestCase.com.TestCase@69adf72c]" started-at="2024-04-14T14:16:01 IST" name="fileUpload" finished-at="2024-04-14T14:16:02 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUpload -->
+      </class> <!-- TestCase.com.TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
